@@ -1,7 +1,5 @@
 {
-  "$schema": "https://openapi.vercel.sh/vercel.json",
-  "version": 3,
-  "framework": null,
+  "version": 2,
   "functions": {
     "api/**/*.js": {
       "runtime": "nodejs18.x"
@@ -11,3 +9,4 @@
     { "src": "/api/(.*)", "dest": "/api/$1" }
   ]
 }
+
